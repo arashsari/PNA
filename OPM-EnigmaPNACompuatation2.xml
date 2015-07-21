@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opmGraph xmlns="http://openprovenance.org/model/opmx#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns4="http://example.com/">
+    <accounts>
+        <account id="account1"/>
+    </accounts>
+    <processes>
+        <process id="P_1">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerProducerWithToken@695ab619"/>
+        </process>
+        <process id="P_2">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerProducerWithToken@5203e0c6"/>
+        </process>
+        <process id="P_3">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@1dab5fd5"/>
+        </process>
+        <process id="P_4">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.SplitterWithToken@53c8b26e"/>
+        </process>
+        <process id="P_5">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@519cea9e"/>
+        </process>
+        <process id="P_6">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@5041d471"/>
+        </process>
+        <process id="P_7">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@11e26fe1"/>
+        </process>
+        <process id="P_8">
+            <account ref="account1"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerPrinterWithToken@1586b489"/>
+        </process>
+    </processes>
+    <artifacts/>
+    <agents/>
+    <dependencies/>
+    <annotations/>
+</opmGraph>
